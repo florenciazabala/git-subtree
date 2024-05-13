@@ -1,0 +1,23 @@
+{
+  "name": "generator-springboottest",
+  "version": "0.1.3",
+  "description": "A Yeoman generator for generating SpringBoot microservices",
+  "files": [
+    "generators",
+    "resources"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "yeoman-generator",
+    "java",
+    "spring",
+    "spring-boot",
+    "microservice"
+  ],
+  "dependencies": {
+    "gateway-ip-whitelist": "github:florenciazabala/gateway-ip-whitelist",
+    "yeoman-generator": "^4.0.1",
+    "yeoman-remote": "^1.0.1",
+    "yo": "^4.0.0"
+  }
+}
